@@ -1,0 +1,1 @@
+const palindroma={check(r){let e=String(r).split("").reverse().join("");return e==String(r)},nearest(r){if(!Number.isInteger(r))return;if(r=parseFloat(r),palindroma.check(r))return r;let e=r-1;for(;!palindroma.check(e);)e-=1;let n=r+1;for(;!palindroma.check(n);)n+=1;return r-e<n-r?e:n}};module.exports=palindroma

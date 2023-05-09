@@ -1,0 +1,27 @@
+{
+  "name": "palindroma",
+  "version": "1.0.0",
+  "description": "Check and find nearest palindrome",
+  "main": "palindroma.js",
+  "exports": {
+    "import": "./palindroma.js",
+    "require": "./palindroma.cjs"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Axorax/palindroma.js.git"
+  },
+  "keywords": [
+    "palindrome",
+    "palindroma",
+    "find-palindrome",
+    "check-palindrome"
+  ],
+  "author": "Axorax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Axorax/palindroma.js/issues"
+  },
+  "homepage": "https://github.com/Axorax/palindroma.js#readme"
+}
